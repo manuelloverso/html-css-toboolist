@@ -104,29 +104,58 @@ button {
   background-color: var(--blue-editorial);
 }
 
+.btn-blue:hover {
+  background-color: rgb(42, 139, 229);
+}
+
 .btn-white {
   color: var(--lighter-grey);
   background-color: white;
   border: 2px solid var(--lighter-grey);
 }
 
+.btn-white:hover {
+  background-color: var(--lighter-grey);
+  color: white;
+}
+
 .btn-violet {
   background-color: var(--violet-goals);
+}
+
+.btn-violet:hover {
+  background-color: rgb(87, 12, 117);
 }
 
 .btn-green {
   background-color: var(--green-recruiting);
 }
 
+.btn-green:hover {
+  background-color: green;
+}
+
 .btn-orange {
   background-color: var(--orange-mobile);
+}
+
+.btn-orange:hover {
+  background-color: rgb(255, 124, 77);
 }
 
 .btn-pink {
   background-color: var(--pink-website);
 }
 
+.btn-pink:hover {
+  background-color: rgb(255, 103, 129);
+}
+
 .btn-lighter-green {
   background-color: var(--green-sales);
+}
+
+.btn-lighter-green:hover {
+  background-color: rgb(115, 155, 51);
 }
 /* #endregion BUTTONS */
