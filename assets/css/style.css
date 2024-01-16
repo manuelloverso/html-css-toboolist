@@ -17,7 +17,7 @@
   --pink-website: #d962a1;
   --green-sales: #afc923;
   --red-cross: #c06763;
-  --green-check: #92c4b6;
+  --green-check: #76bca9;
 }
 
 body {
@@ -52,6 +52,7 @@ main {
 
 .add-section {
   padding: 20px 50px;
+  border-bottom: 1px solid var(--grey-body);
 }
 
 button {
@@ -64,6 +65,39 @@ button {
   border-radius: 10px;
 }
 
+.list {
+  padding: 50px;
+}
+
+.list-section {
+  margin-bottom: 30px;
+}
+
+.list-section h2 {
+  margin-bottom: 15px;
+}
+
+.list-row {
+  margin-bottom: 20px;
+}
+.row-text {
+  font-size: 1.3rem;
+  padding-left: 5px;
+}
+
+.check {
+  color: var(--green-check);
+  padding: 3px 5px;
+  border: 1px solid var(--green-check);
+  border-radius: 50%;
+}
+
+.cross {
+  color: var(--red-cross);
+  padding: 3px 5px;
+  border: 1px solid var(--red-cross);
+  border-radius: 50%;
+}
 /* #region BUTTONS */
 
 .btn-blue {
