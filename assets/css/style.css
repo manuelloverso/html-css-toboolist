@@ -31,17 +31,18 @@ main {
 }
 
 header {
-  height: 100px;
+  padding: 0.5rem 1rem;
 }
 
 header span {
   font-size: 3.5rem;
   font-weight: 700;
+  vertical-align: middle;
 }
 
 .logo-img {
-  width: 60px;
-  margin: 20px 0 0 20px;
+  width: 80px;
+  vertical-align: middle;
 }
 
 main {
