@@ -56,7 +56,8 @@ main {
   border-bottom: 1px solid var(--grey-body);
 }
 
-button {
+button,
+.etichetta {
   padding: 11px 16px;
   margin: 0 3px;
   font-size: 1rem;
@@ -79,7 +80,7 @@ button {
 }
 
 .list-row {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .row-text {
   font-size: 1.3rem;
